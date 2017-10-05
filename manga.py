@@ -7,15 +7,29 @@
 ##########################################################
 import os
 import sys
+from termcolor import colored, cprint
 from urllib import urlopen
 import requests
 import shutil
 import re
 from string import punctuation as punct
+# Print the ascii art :')
+asciart = colored('''  __  __
+ |  \/  | __ _ _ __   __ _  __ _
+ | |\/| |/ _` | '_ \ / _` |/ _` |
+ | |  | | (_| | | | | (_| | (_| |
+ |_|__|_|\__,_|_| |_|\__, |\__,_|             _
+ |  _ \  _____      _|___/ | | ___   __ _  __| | ___ _ __
+ | | | |/ _ \ \ /\ / / '_ \| |/ _ \ / _` |/ _` |/ _ \ '__|
+ | |_| | (_) \ V  V /| | | | | (_) | (_| | (_| |  __/ |
+ |____/ \___/ \_/\_/ |_| |_|_|\___/ \__,_|\__,_|\___|_|
+               By : Mr.Kara :')                                ''', 'blue')
 
-# Change this to the manga you want to download (each word must start with a capital letter)
+print(asciart)
 
-name = "Berserk"
+# Input to take the manga name
+
+name = raw_input('input the maga name : ')
 
 
 start_chapter = int(sys.argv[1]) if len(sys.argv) > 1 else 1
