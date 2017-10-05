@@ -1,22 +1,22 @@
 # Manga-Download
-Python script that download manga
+Python script for downloading manga :3
 
 # Requirements
 
-Python 2.7.13
-https://www.python.org/
+* [Python 2.7.13](https://www.python.org/)
 
 # How To Use 
-
-Edite the script and type the manga that you want to download in the "name" variable and run it .                                         
-$ Note : the manga name must start with capital letter .
-
-# By Mr Kara 
-# Facebook:
-https://www.facebook.com/hackerlibya100/
-# Twitter :
-https://twitter.com/HackerAlnofalia
-# Linkedin :
-https://www.linkedin.com/in/mr-kara-56327a136/
-# Youtube :
-https://www.youtube.com/c/HackerAlnofalia
+* Runnig the script
+```
+kara@ubuntu:~$ python manga.py
+```
+* Write the manga name and each word must start with a capital letter , also put the manga name in double quotes
+```
+input the maga name : "Berserk"
+```
+# Authors
+* Mr Kara : Libyan programmer at [HLT](https://www.facebook.com/hackerlibya100/) 
+# Contact Us
+* [Facebook](https://www.facebook.com/hackerlibya100/) 
+* [Twitter](https://twitter.com/HackerAlnofalia)
+* [Youtube](https://www.youtube.com/c/HackerAlnofalia)
