@@ -4,7 +4,7 @@ Python script that download manga
 # Requirements
 
 Python 2.7.13
-https://www.python.org/ftp/python/3.6.2/python-3.6.2.exe
+https://www.python.org/
 
 # How To Use 
 
